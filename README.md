@@ -1,5 +1,5 @@
 # DESTRUCT
-DESTRUCT is an NFT project based on the idea of 'life-span' for NFT's. Check out the video below to understand the concept. 
+DESTRUCT is a project based on the idea of 'life-span' for NFT's. Check out the video below to understand the concept. 
 
 [![Watch the video](https://img.youtube.com/vi/krO8dXZs_PE/maxresdefault.jpg)](https://youtu.be/krO8dXZs_PE)
 
