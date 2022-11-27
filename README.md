@@ -3,7 +3,7 @@ DESTRUCT is an NFT project based on the idea of 'life-span' for NFT's. Check out
 
 [![Watch the video](https://img.youtube.com/vi/krO8dXZs_PE/maxresdefault.jpg)](https://youtu.be/krO8dXZs_PE)
 
-
+*Potential Impact*
 **Description**
 
 The tools main function is to keep track of the state of each NFT of a collection.
