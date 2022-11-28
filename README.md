@@ -21,19 +21,19 @@ But what’s the benefits?
 
 In our opinion, it’s the golden middle for everyone. You wanna trade? Fine, trade it, but be cautious about the ‘life-span’. You wanna see if the project is worth it? Even better, you have 24 hours to check it out and if everything is cool, pay and stay. You wanna hold? Perfect, pay the royalties and hold. 
 
-**Potential Impact**
+### Potential Impact
 
 Bringing the life-span idea to NFT space brings on a lot of new frontiers. Each collection can become deflationary this way, which can help increase the floor price for a project (law of supply and demand). Moreover, it can bring a sort of gamified process to the whole space, cause now people won't just trade NFT's, they will will have to take that life-span into account (first come fisrt serve at it's finest). Futhermore, people will finally be able to check out the project to see if they like it (and pay no money for it), which can help people be more satisfied with the space in general. The whole idea of life-span is also hand in hand with decentralisation, since people decide whether to burn the NFT or not. Things like NFT 'cemetery' (all NFT's that turned black) can come into existence, which will be a very interesting thing to see. There are tons of ways and creative opportunities that can be designed using a life-span mechanism. 
 
-**Functionality** 
+### Functionality 
 
 As of now, project is functioning off-chain using Helius and Google cloud (all code and description of the process can be found bellow). We are currently working on a on-chain solution using CLockwork. 
 
-**Novelty**
+### Novelty
 
 Yes, there were ways to make diflationary collections in the past (like DeGods PHBT), but they didn't really work out and weren't used for monitisation, whilst our idea is new and unique and offers not only an interesting solution, but presents multiple ways for project to get monitisation and provides a fun experience for buyers. 
 
-**Technical Description**
+## Technical Description
 
 The tools main function is to keep track of the state of each NFT of a collection.
 
@@ -51,6 +51,6 @@ The tool detects an NFT event (e.g. Unstaking/Staking, Listing, Sale, etc) and u
 
 Now there is urgency! If you don’t trigger an event that resets or freezes the countdown, there will be negative consequences for your NFT!
 
-**Technicals**
+### Technicals
 
 Initially we set this tool up with google cloud-functions and a google Firestore database. We know that’s not optimal and we want to move away from this asap. We are already developing an on-chain solution with the innovative solution of Clockwork. When they launch on main-net we’ll be able to rely entirely on on-chain account updates to trigger and schedule actions after an NFT’s lifespan has run out.
