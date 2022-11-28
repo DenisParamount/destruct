@@ -54,3 +54,9 @@ Now there is urgency! If you don’t trigger an event that resets or freezes the
 ### Technicals
 
 Initially we set this tool up with google cloud-functions and a google Firestore database. We know that’s not optimal and we want to move away from this asap. We are already developing an on-chain solution with the innovative solution of Clockwork. When they launch on main-net we’ll be able to rely entirely on on-chain account updates to trigger and schedule actions after an NFT’s lifespan has run out.
+
+## Additional Solution
+
+### Dynamic Royalties 
+
+The other solution that we had in mind, which didn't make it's way onto this repository was: Dynamic Royalties. Essentially similar to the idea of Dynamic Pricing which some projects use during mint, Dynamic Royalties are supposed to make it more likable for a buyer to pay royalties at all. But unlike the Dynamic Pricing, Dynamic Royalties can be calculated just by recalculating the average for every next buyer. You just add the value of royalties paid by previous customer to the summ of all the royalties and devide it by total sales that happened. The reason we didn't write any code for it is becasue to our knowledge it requires an acess to Magic Eden to implement.
