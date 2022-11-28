@@ -3,7 +3,7 @@ DESTRUCT is a project based on the idea of 'life-span' for NFT's. Check out the 
 
 [![Watch the video](https://img.youtube.com/vi/krO8dXZs_PE/maxresdefault.jpg)](https://youtu.be/krO8dXZs_PE)
 
-##**Description** 
+##Description
 
 DESTRUCT is a social experiment. DESTRUCT is something new, something fresh. DESTRUCT is art. DESTRUCT is you. 
 
