@@ -3,7 +3,7 @@ DESTRUCT is a project based on the idea of 'life-span' for NFT's. Check out the 
 
 [![Watch the video](https://img.youtube.com/vi/krO8dXZs_PE/maxresdefault.jpg)](https://youtu.be/krO8dXZs_PE)
 
-**Description** 
+##**Description** 
 
 DESTRUCT is a social experiment. DESTRUCT is something new, something fresh. DESTRUCT is art. DESTRUCT is you. 
 
@@ -33,7 +33,7 @@ As of now, project is functioning off-chain using Helius and Google cloud (all c
 
 Yes, there were ways to make diflationary collections in the past (like DeGods PHBT), but they didn't really work out and weren't used for monitisation, whilst our idea is new and unique and offers not only an interesting solution, but presents multiple ways for project to get monitisation and provides a fun experience for buyers. 
 
-**Description**
+**Technical Description**
 
 The tools main function is to keep track of the state of each NFT of a collection.
 
