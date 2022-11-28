@@ -61,7 +61,7 @@ Initially we set this tool up with google cloud-functions and a google Firestore
 
 The other solution that we had in mind, which didn't make it's way onto this repository was: Dynamic Royalties. Essentially similar to the idea of Dynamic Pricing which some projects use during mint, Dynamic Royalties are supposed to make it more likable for a buyer to pay royalties at all. But unlike the Dynamic Pricing, Dynamic Royalties can be calculated just by recalculating the average for every next buyer. You just add the value of royalties paid by previous customer to the summ of all the royalties and devide it by total sales that happened. The reason we didn't write any code for it is becasue to our knowledge it requires an acess to Magic Eden to implement. 
 
-## Benefits 
+### Benefits 
 
 In this case, buyers will have a new option to pay royalties (other than zero, half, full). Moreover, this can be looked upon as a 'fair' price for the royalties, since people decide what they are willing to pay for the project. Decentralisation at it's best. If the project is great, thus more people are likely to pay higher royalties and 'fair' price will be closer to 'true' price (royalty percetage set by project as default royalty rate). If the project is a rug, thus people will be more prone to pay no royalties and a 'fair' price will also be remenicent of projects 'true' value. 
 
