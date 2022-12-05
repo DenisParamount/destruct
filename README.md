@@ -27,13 +27,15 @@ Bringing the life-span idea to NFT space brings on a lot of new frontiers. Each 
 
 ### Functionality 
 
-As of now, project is functioning off-chain using Helius and Google cloud (all code and description of the process can be found bellow). We are currently working on a on-chain solution using CLockwork. 
+As of now, project is functioning off-chain using Helius and Google cloud (all code and description of the process can be found bellow). We are currently working on a on-chain solution using Clockwork. 
 
 ### Novelty
 
 Yes, there were ways to make diflationary collections in the past (like DeGods PHBT), but they didn't really work out and weren't used for monitisation, whilst our idea is new and unique and offers not only an interesting solution, but presents multiple ways for project to get monitisation and provides a fun experience for buyers. 
 
 ## Technical Description
+
+### Current version
 
 The tools main function is to keep track of the state of each NFT of a collection.
 
@@ -51,9 +53,23 @@ The tool detects an NFT event (e.g. Unstaking/Staking, Listing, Sale, etc) and u
 
 Now there is urgency! If you don’t trigger an event that resets or freezes the countdown, there will be negative consequences for your NFT!
 
-### Technicals
+### Moving to an on-chain solution
 
-Initially we set this tool up with google cloud-functions and a google Firestore database. We know that’s not optimal and we want to move away from this asap. We are already developing an on-chain solution with the innovative solution of Clockwork. When they launch on main-net we’ll be able to rely entirely on on-chain account updates to trigger and schedule actions after an NFT’s lifespan has run out.
+One of the most overlooked developments in Solana technology at the moment is Clockwork. 
+
+Clockwork is an open-source automation engine that enables developers to schedule transactions and automate smart-contracts without relying on centralized infrastructure.
+
+At the moment our system is reliant on centralized infrastructure. We use **Helius** to track NFT-events and use **google firebase** to store each NFTs state. Additionally we use **google tasks** to schedule the event that should happen once the lifespan runs out.
+
+The main problems here are the scheduling of the transaction that alters the NFTs metadata once the lifespan runs out and the tracking of nft-events which in Solana Terms would be listening to on-chain account changes.
+
+Now with Clockwork we directly listen to account changes like an NFT being sold, staked etc. and use those as triggers to schedule a transaction in the future. In 24 hours let’s say if that’s the lifespan that the applicable NFT has.
+
+In conclusion, Clockwork will be the inevitable future of the Destruct solution. Currently their automation engine is live on Solana’s devnet and they plan to release on mainnet very soon. When that happens we’ll be ready to implement it into Destruct.
+
+<!-- ### Technicals
+
+Initially we set this tool up with google cloud-functions and a google Firestore database. We know that’s not optimal and we want to move away from this asap. We are already developing an on-chain solution with the innovative solution of Clockwork. When they launch on main-net we’ll be able to rely entirely on on-chain account updates to trigger and schedule actions after an NFT’s lifespan has run out. -->
 
 ## Additional Solution
 
