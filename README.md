@@ -3,6 +3,10 @@ DESTRUCT is a project based on the idea of 'life-span' for NFTs. Check out the v
 
 [![Watch the video](https://img.youtube.com/vi/krO8dXZs_PE/maxresdefault.jpg)](https://youtu.be/krO8dXZs_PE)
 
+## Abstract
+
+DESTRUCT is based on the idea of 'life-span'. Each NFT gets a 24 hour countdown which starts whenever a person buys an NFT without rolyaties. The countdown is terminated if royalties/fee is payed on projects' website or when it's sold to another person with royalties. Monetisation for the project is based on the tweaks that can be done with the countdown and metadata: prolongation/termination of countdown, changes in metadata (rarity, attributes, benefits) based on the countdown, 'revival' of NFT through payment. Off-chain solution is developed using Helius API and Google Cloud, on-chain solution is being developed using Clockwork. 
+
 ## Description
 
 DESTRUCT is a social experiment. DESTRUCT is something new, something fresh. DESTRUCT is art. DESTRUCT is you. 
