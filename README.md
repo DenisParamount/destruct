@@ -1,5 +1,5 @@
 # DESTRUCT
-DESTRUCT is a project based on the idea of a 'life-span' for NFTs. Check out the video below to understand the concept (Yes, the picture is clickable and leads to the YouTube video). Or you can check it out via the link: https://youtu.be/krO8dXZs_PE 
+DESTRUCT is a project based on the idea of a 'life-span' for NFTs. Check out the video below to understand the concept (Yes, the picture is clickable and leads to the YouTube video). Or you can check it out via the link: https://youtu.be/krO8dXZs_PE Also, follow us on Twitter: https://twitter.com/DestructWEB3
 
 [![Watch the video](https://img.youtube.com/vi/krO8dXZs_PE/maxresdefault.jpg)](https://youtu.be/krO8dXZs_PE)
 
